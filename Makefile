@@ -30,7 +30,7 @@ bochs/bios/Makefile:
 
 bios.bin: bochs/bios/Makefile
 		$(MAKE) -C bochs/bios
-		$(CP) bochs/bios/rombios16.bin $@
+		$(CP) bochs/bios/BIOS-bochs-latest $@
 
 vgabios-cirrus.bin:
 		$(MAKE) -C vgabios
