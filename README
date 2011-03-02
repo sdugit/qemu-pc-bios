@@ -7,7 +7,7 @@ SOURCE CODE
 
 + bios.bin: git://git.kernel.org/pub/scm/virt/bochs/bochs.git
 
-  The file bios.bin is actually rombios16.bin, which is built from
+  The file bios.bin is actually BIOS-bochs-latest, which is built from
 bochs/bios. We used the following commit in the bochs git tree so that
 it can match with the qemu tree in platform/external/qemu:
 
